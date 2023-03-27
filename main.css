@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     background: #fa923f;
     padding: 8px 0;
 }
@@ -13,9 +13,20 @@ a {
     color: white;
     margin: 10px;
 }
+a.active {
+    color: #521751;
 
+}
+
+a:not(.active){
+    color: blue
+}
 .main-section {
     height: 800px;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc !important;
     padding: 16px;
+}
+
+.highlighted {
+    border: 2px solid #fa923f;
 }
