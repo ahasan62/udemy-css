@@ -18,9 +18,7 @@ a.active {
 
 }
 
-a:not(.active){
-    color: blue
-}
+
 .main-section {
     height: 800px;
     border: 1px solid #ccc !important;
